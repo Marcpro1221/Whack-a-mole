@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Whack a Mole</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jersey+10&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+
+</head>
+<body class="Click">
+    <section class="blur">
+        <div id="container" class="Click">
+            <h1 class="jersey-10-regular title">Whack a Mole</h1>
+            <h2>Score: <span class="score">0</span></h2>
+            <div class="board">
+                 <img class="mole" src="./asset/images/mole-2.png" alt="mole">
+            </div>
+        </div>
+    </section>
+    <section>
+        <div class="pop-up">
+            <div class="inner-rule-container">
+                <h2 class="jersey-10-regular title">Rules</h2>
+                <p class="Fjalla-one-regular">Whack a Mole is a Single player game, where the player should protect the plants from getting eaten,
+                    once all plants eaten you will lose the game.</p>
+                <p class="Fjalla-one-regular">Save your plants before it get eaten completely.</p>
+                <button type="button" class="Fjalla-one-regular">Play</button>
+            </div> 
+        </div>
+    </section>
+
+    <audio src="./asset/audio-soundeffect/background-music.wav" preload="auto"></audio>
+  <script src="./index.js"></script>
+</body>
+</html>
